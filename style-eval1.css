@@ -25,17 +25,6 @@ a:hover {
   margin: 0.6rem;
 }
 
-  /*CUSTOMIZE FOOTER
-  ------------------------------------------------*/
-  .footer {
-    padding: 1rem;
-    margin-top: 5rem;
-    color: aliceblue;
-  }
-  .footer a {
-    color: white;
-
-  }
   /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -96,12 +85,35 @@ a:hover {
 --------------------------------------------------*/
 .contact .col-md-6 p {
     
-    padding: 0.5rem;
+    padding: 0rem;
+    margin-left: 0.5rem;
 } 
 .contact h3 {
-  margin-bottom: 3rem;
-  margin-top: 1rem;
+  margin-bottom: 2rem;
+  
 }
+
+.info_contact {
+  padding: 0.7rem;
+}
+
+
+/*CUSTOMIZE FOOTER
+  ------------------------------------------------*/
+  .footer {
+    padding: 1rem;
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 0.9rem;
+  }
+  .footer a {
+    color: white;
+    font-size: 0.7rem;
+
+  }
+
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -129,3 +141,4 @@ a:hover {
   .topbar {
     display: none;
   }
+}
