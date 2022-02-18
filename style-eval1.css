@@ -17,9 +17,9 @@ a:hover {
 
   /*CUSTOMIZE TOPBAR
   -----------------------------------------------*/
-#topbar {
-  margin: 0.7rem;
-  font-size: 0.8rem;
+.topbar {
+  margin: 0.2rem;
+  font-size: 0.9rem;
 }
 .social_icon {
   margin: 0.6rem;
@@ -27,13 +27,14 @@ a:hover {
 
   /*CUSTOMIZE FOOTER
   ------------------------------------------------*/
-  footer {
+  .footer {
+    padding: 1rem;
     margin-top: 5rem;
     color: aliceblue;
   }
-  footer a {
+  .footer a {
     color: white;
-    
+
   }
   /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -44,7 +45,7 @@ a:hover {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 1rem;
+  bottom: 3rem;
   z-index: 10;
 }
 
@@ -62,18 +63,17 @@ a:hover {
 }
 
 
-/* MARKETING CONTENT
+/* THE TEAM PRESENTATION
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.team .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
+.team h2 {
   font-weight: 400;
 }
-.marketing .col-lg-4 p {
+.team .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
@@ -86,14 +86,22 @@ a:hover {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
 }
 
-
+/* ZONE DE CONTACT et FORMULAIRE
+--------------------------------------------------*/
+.contact .col-md-6 p {
+    
+    padding: 0.5rem;
+} 
+.contact h3 {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -115,3 +123,9 @@ a:hover {
     margin-top: 7rem;
   }
 }
+
+@media (min-width: 576px) {
+  /* Affichage TOPBAR seulement sur mobile */
+  .topbar {
+    display: none;
+  }
