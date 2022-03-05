@@ -15,6 +15,18 @@ a:hover {
   color: green;
 }
 
+  /*CUSTOMIZE DROPDDOWN MENU 
+  -------------------------------------------------*/
+.dropdown-menu {
+
+
+}
+.dropdown-item:hover{
+  text-decoration: none;
+  background: rgb(0,0,0, 0%);
+}
+
+
   /*CUSTOMIZE TOPBAR
   -----------------------------------------------*/
 .topbar {
