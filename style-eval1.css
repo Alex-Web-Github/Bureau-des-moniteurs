@@ -4,7 +4,7 @@
 
 body {
   padding-top: 0rem;
-  padding-bottom: 3rem;
+  
   color: #5a5a5a;
 }
 a {
@@ -114,14 +114,32 @@ a:hover {
     margin-top: 5rem;
     color: aliceblue;
     font-size: 0.9rem;
+    background: #000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
   }
+
   .footer a {
     color: white;
     font-size: 0.7rem;
-
   }
 
+  .text-footer>a {
+    display: inline-flex;
+    align-items: flex-end;    
+  }
 
+  .float-right {
+    display: inline-flex;
+    justify-self: end;
+    position: fixed;
+    bottom:0;
+    right: 10px;   
+  }
+  .float-right .bi{
+    color: green;
+  }
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
